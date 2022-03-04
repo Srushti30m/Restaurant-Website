@@ -1,0 +1,193 @@
+/*
+Author: Srushti More
+Theme: Restaurant
+Version: 1.0
+*/
+/* CSS for All */
+*{
+    margin: 0 0;
+    padding: 0 0;
+    font-family: cursive;
+}
+
+.container{
+   
+    width: 80%;
+    margin: 0 auto;
+    padding: 1%;
+    
+
+}
+.img-responsive{
+    width: 100;
+}
+
+.img-curve{
+    border-radius: 10px; 
+}
+
+.text-right{
+    text-align: right;
+
+}
+.text-centre{
+    text-align: center;
+}
+
+.clearfix{
+    clear: both;
+    float: none;
+}
+
+a{
+    color: #d63031;
+    text-decoration: none;
+}
+.button{
+    padding: 1%;
+    border: none;
+    font-size: 1rem;
+
+}
+
+.button-primary{
+    background-color: #1B1464;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.button-primary:hover{
+    color: white;
+    background-color: #6F1E51;
+}
+
+a:hover{
+    color:#6F1E51 ;
+}
+
+h2{
+    color:#353b48;
+    font-size:2rem;
+    
+}
+h2{
+    font-size: 1.5rem;
+    margin-bottom: 2%;
+}   
+
+.float-container{
+    position: relative;
+    
+}
+.float-text{
+    position: absolute;
+    bottom: 20px;
+    left: 1%;
+  
+}
+.text-orange{
+    color: white;
+}
+h3{
+    font-size: 1.5rem;
+}
+    
+    
+/* css for navbar section */
+
+.logo img{
+    width: 15%;
+    height: 5%;
+    float: left;    
+    
+}
+
+.About{
+    line-height: 60px;
+}
+
+.About ul{
+    list-style-type: none;
+
+}
+
+.About ul li{
+    display: inline;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+/* Css for Food Search section*/
+.Search{
+    background-image: url(../images/box.jpg);
+    padding: 5% 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 1rem;
+    
+}
+ .Search input[type="Search"]{
+     width: 20%;
+     padding:1%;
+     font-size: 1rem;
+     border: none;
+     border: 10px;
+     border-radius: 5px;
+
+ }
+ /*CSS for Menu*/
+ .Menu{
+     padding: 4% 0;
+ }
+
+ .box-3{
+    
+     width:30%;
+     float: left;
+     margin: 1%;
+ }
+
+ /*CSS for Special*/
+ .Special{
+     background-color: #ececec;
+     padding: 4% 0;
+ } 
+
+
+ .Hood-Special{
+
+ 
+     
+     width: 25%;
+     margin: 1%;
+     float: left;
+     padding: 2%;
+     background-color: white;
+     border-radius: 1.5px;    
+}
+
+.Special-img{
+    width: 10%;
+    float: left;
+    
+}
+
+.Special-detail{
+    font-style: italic;
+    color: #1B1464;
+    width: 40%;
+    float: right;
+    margin-left: 15%;
+}
+
+/*CSS for social*/
+.Social ul{
+    list-style-type: none;
+}
+
+.Social ul li{
+    display: inline;
+    padding: 1%;
+}
+
+
